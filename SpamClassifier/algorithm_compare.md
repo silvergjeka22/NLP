@@ -54,20 +54,6 @@ The MLP achieves an accuracy of **97.68%** and an F1 Score of **0.96**, showing 
 
 ---
 
-## 3. **Comparison: Naive Bayes vs. Neural Networks**
-
-| Feature                     | Naive Bayes                       | FFNN / MLP                       |
-|-----------------------------|------------------------------------|----------------------------------|
-| **Assumptions**             | Assumes feature independence      | No assumptions about feature independence |
-| **Learning Mechanism**      | Probabilistic / Statistical model | Non-linear learning with activation functions |
-| **Non-Linearity**           | Cannot capture non-linear patterns | Models non-linear patterns effectively |
-| **Complex Feature Interactions** | Ignores inter-feature relationships | Models complex feature interactions |
-| **Training Time**           | Fast                               | Slower due to multi-layer computations |
-| **Interpretability**       | High interpretability            | Low interpretability due to network complexity |
-| **Handling of Sparse Features** | Performs well                  | Requires careful preprocessing  |
-
----
-
 ## 4. **Conclusion**
 
 - **FFNN and MLP outperform Naive Bayes** because they can model non-linear relationships and feature interactions, critical for accurately detecting spam patterns.
