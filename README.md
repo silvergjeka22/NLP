@@ -83,7 +83,7 @@ To get started with this project, you can run it directly on Google Colab. This 
    Make sure to download the dataset to the Colab environment. You can do this using the following code snippet:
 
    ```python
-   !wget [https://www.kaggle.com/datasets/balaka18/email-spam-classification-dataset-csv]
+   https://www.kaggle.com/datasets/balaka18/email-spam-classification-dataset-csv
    ```
 
 ---
