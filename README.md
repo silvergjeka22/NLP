@@ -66,10 +66,6 @@ Make sure you are in the correct assignment path. You can use the following meth
 
 ---
 
-# 📚 **README**
-
----
-
 ### 🚀 **Method 3: Run it on Google Colab**
 
 To get started with this project, you can run it directly on Google Colab. This is the easiest way to execute and test the code without requiring any local setup.
