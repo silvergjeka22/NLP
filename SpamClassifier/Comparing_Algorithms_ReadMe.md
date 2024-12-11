@@ -1,19 +1,19 @@
 
 # Comparing Algorithms: Naive Bayes, FFNN, and MLP
 
-This README file provides an in-depth explanation of a study comparing the performance of Naive Bayes, Feed-Forward Neural Networks (FFNN), and Multi-Layer Perceptrons (MLP) for spam detection tasks. The analysis demonstrates why FFNN and MLP outperform Naive Bayes in this domain.
+This README compares the performance of Naive Bayes, Feed-Forward Neural Networks (FFNN), and Multi-Layer Perceptrons (MLP) for spam detection tasks. The analysis demonstrates why FFNN and MLP preform better than Naive Bayes in this assagment.
 
 ---
 
 ## Overview
 
-Spam detection involves identifying whether an email is spam or not based on its content and metadata. The dataset used in this study contains a linear structure with labeled examples of **spam** and **non-spam** emails. The algorithms were evaluated based on key performance metrics such as precision, F1 score, and confusion matrix.
+Spam detection involves identifying whether an email is spam or not based on its content. The dataset used in this study contains a linear structure with labeled examples of **spam** and **non-spam** emails. The algorithms were evaluated by precision, F1 score, and confusion matrix.
 
 ### Dataset Structure
 
-- **Number of emails:** Large dataset containing both spam and non-spam samples.
-- **Features:** Textual features and metadata extracted from emails.
-- **Labels:** Binary classification (“Spam” or “Non-Spam”).
+- **Number of emails:** Collection of a good number of spam and non spam samples.
+- **Features:** Email texts and other relevant information like the subject and sender of the emails.
+- **Labels:** Two categories classification – spam and non spam.
 
 ---
 
@@ -29,9 +29,9 @@ Spam detection involves identifying whether an email is spam or not based on its
 
 #### Performance Metrics:
 
-- **Precision:** Measures the proportion of true positives among all positive predictions.
-- **F1 Score:** Harmonic mean of precision and recall, capturing the balance between false positives and false negatives.
-- **Confusion Matrix:** Summarizes classification results into true positives (TP), true negatives (TN), false positives (FP), and false negatives (FN).
+- **Precision:** Percentage of true positives out of the total number of positive predictions made.
+- **F1 Score:** Average of precision and recall in the same way that an average takes into account both false positives and false negatives.
+- **Confusion Matrix:** It is made up of True positives (TP), True negatives (TN), False positives (FP) and False negatives (FN) that summarizes the result of classifications.
 
 ---
 
